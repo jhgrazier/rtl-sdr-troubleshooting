@@ -10,6 +10,7 @@ rtl_power -f 1693000000:1695000000:1k -g 42 -i 5 -e 1m output.csv
 
 #### Example 
 
+```
 root@goes-receiver:~# rtl_power -f 1693000000:1695000000:1000 -g 42 -i 10 -e 2m output.csv
 Number of frequency hops: 1
 Dongle bandwidth: 2000000Hz
@@ -27,6 +28,7 @@ Using device 0: Generic RTL2832U OEM
 Found Elonics E4000 tuner
 Tuner gain set to 42.00 dB.
 Exact sample rate is: 2000000.052982 Hz
+```
 
 ## Test RTL-SDR independently to verify gain setting works
 
@@ -36,6 +38,7 @@ rtl_test -t
 
 #### Example
 
+```
 root@goes-receiver:~# rtl_test -t
 Found 1 device(s):
   0:  Nooelec, SMArTee XTR v5, SN: 00000001
@@ -51,6 +54,7 @@ Benchmarking E4000 PLL...
 [E4K] PLL not locked for 1247000000 Hz!
 E4K range: 52 to 2215 MHz
 E4K L-band gap: 1108 to 1247 MHz
+```
 
 ## Plot heatmaps
 
