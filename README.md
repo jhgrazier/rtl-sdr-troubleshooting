@@ -56,6 +56,28 @@ E4K range: 52 to 2215 MHz
 E4K L-band gap: 1108 to 1247 MHz
 ```
 
+```
+rtl_power -f 1693900000:1694300000:1k -g 28 -i 2 -e 2m output_zoom.csv
+Number of frequency hops: 1
+Dongle bandwidth: 2800000Hz
+Downsampling by: 7x
+Cropping by: 0.00%
+Total FFT bins: 512
+Logged FFT bins: 512
+FFT bin size: 781.25Hz
+Buffer size: 16384 bytes (2.93ms)
+Reporting every 2 seconds
+Found 1 device(s):
+  0:  Nooelec, SMArTee XTR v5, SN: 00000001
+
+Using device 0: Generic RTL2832U OEM
+Found Elonics E4000 tuner
+Tuner gain set to 29.00 dB.
+Exact sample rate is: 2800000.037087 Hz
+
+User cancel, exiting...
+```
+
 ## Plot heatmaps
 
 ### show plot only
